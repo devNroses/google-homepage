@@ -1,0 +1,80 @@
+/* --- Layout Styles --- */
+body, html { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* --- End --- */
+
+nav { 
+    width: 100%; 
+    display: flex;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin: 16px 0 0 0;
+    color: #666;
+}
+
+.l_nav{
+    padding-left: 17px;
+}
+
+.r_nav{
+    padding-right: 17px;
+}
+
+.l_nav div { 
+    display: inline-flex;
+    vertical-align: middle;
+    margin: 7px 7px;
+    cursor: pointer;
+}
+.r_nav div{
+    display: inline-flex;
+    vertical-align: middle;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+    .l_nav div:hover, .r_nav div:hover {
+        text-decoration: underline;
+    }
+
+.google-apps {
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 520px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.signUp--button {
+    background: -moz-linear-gradient(top, dodgerblue, #4683ea);
+    border: 1px solid dodgerblue;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 28px;
+    outline: none;
+    padding: 0 12px;
+}
+    .signUp--button:hover{
+        text-decoration: none !important;
+    }
+
+    /* --- Container --- */
+.google--title {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+    .google--title img {
+        margin: 0 auto;
+        padding-top: 152px;
+        justify-content: center;
+    }
