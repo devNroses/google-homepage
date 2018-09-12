@@ -3,9 +3,9 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif; 
 }
-
 /* --- End --- */
 
+/* --- Nav Styles --- */
 nav { 
     width: 100%; 
     display: flex;
@@ -40,6 +40,7 @@ nav {
     .l_nav div:hover, .r_nav div:hover {
         text-decoration: underline;
     }
+/* --- End --- */
 
 .google-apps {
     background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
@@ -67,14 +68,40 @@ nav {
         text-decoration: none !important;
     }
 
-    /* --- Container --- */
-.google--title {
+/* --- Google Features --- */
+.google--title, .google--input, .google--button {
     display: flex;
     width: 100%;
     height: auto;
+    justify-content: center;
 }
     .google--title img {
-        margin: 0 auto;
         padding-top: 152px;
-        justify-content: center;
+       
     }
+
+.google--input input{
+    width: 580px;
+    height: 42px;
+    margin: 25px 5px;
+    box-shadow: 0 0.5px .5px darkgray;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+
+}
+
+button{
+    background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    color: gray;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 4px;
+    min-width: 54px;
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
